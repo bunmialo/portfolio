@@ -9,6 +9,7 @@ body {
   border: 3px solid #1E1E1E;
   font-family: 'Lobster', cursive;
   min-height: calc(100vh - 6px);
+  position: relative;
 }
 
 img {
@@ -201,6 +202,7 @@ a {
   display: flex;
   flex-direction: row;
   line-height: 25px;
+  border: 1px solid #111C1B;
 }
 
 .button {
@@ -214,7 +216,7 @@ a {
 }
 
 .text-box-content {
-  margin-top: 50px;
+  margin-top: 30px;
   position: absolute;
 }
 
@@ -228,7 +230,7 @@ a {
 }
 
 .p-p {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .big-wrapper {
